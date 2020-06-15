@@ -1,5 +1,5 @@
 # ML-with-Pytorch  
-Deep learning exercises with Pytorch and torchvision
+Deep learning exercise with Pytorch and torchvision
 In this project, a code for an image classifier is built with PyTorch then converted into a command line application.
 
 ## Environment  
@@ -137,4 +137,8 @@ from `modelparameters.py`
     returns
     - `top_p` and `top_class` lists.
 - `display(filename,model,probs,classes)` displays onto the console the top `k` predicted class names and their predicted probabilities
- given by `--top_k` attribute 
+ given by `--top_k` attribute  
+ 
+ ## Data  
+
+`/flowers` contain images of 102 flowers in \train , \valid and \test data. 
