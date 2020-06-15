@@ -6,7 +6,7 @@ from collections import OrderedDict
 import os
 class ModelParameters:
     '''
-    default model is chosen as vgg13_bn. 
+    default model is chosen as vgg16_bn. 
     The user can choose one additional model. 
     '''
     def __init__(self,dataDir):
