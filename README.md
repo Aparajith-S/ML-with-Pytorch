@@ -1,14 +1,14 @@
-# ML-with-Pytorch
+# ML-with-Pytorch  
 Deep learning exercises with Pytorch and torchvision
 In this project, a code for an image classifier is built with PyTorch then converted into a command line application.
 
-## Environment
+## Environment  
 The command line application is built using python 3.6 and pytorch version   
 Image operations and data augmentation are done using torchvision library
 
 
-##Running the Application
-###Training the model
+##Running the Application  
+###Training the model  
 `train.py` builds a model using default or user preferred hyperparameters.
 
 use the following bare minimum command to run the code  
@@ -44,7 +44,7 @@ Use the -h flag to bring up the argument list help menu which displays the follo
                           epochs for the model. default is 20  
     -p, --gpu             add this flag to enable gpu if available
     
-###Running the inference 
+###Running the inference  
 `predict.py` runs the inference of the trained model which requires two bare 
 minimum parameters `image_path` and `saved_model_checkpoint` in that order.  
 One example of running this is using the following command.
@@ -74,7 +74,7 @@ Again, using the help command is a good way to find what the application accepts
                               Path to the json file with category names
         -p, --gpu             Add this flag to enable gpu if available
 
-##Code
+##Code  
 
 `train.py` contains 
 
