@@ -1,6 +1,7 @@
 # ML-with-Pytorch  
 Deep learning exercise with Pytorch and torchvision
-In this project, a code for an image classifier is built with PyTorch then converted into a command line application.
+In this project, a code for an image classifier is built with PyTorch then converted into a command line application.  
+`Image_Classifier_Project.zip` contains the notebook and html file.
 
 ## Environment  
 
@@ -48,6 +49,8 @@ Use the -h flag to bring up the argument list help menu which displays the follo
 ### Running the inference  
 `predict.py` runs the inference of the trained model which requires two bare 
 minimum parameters `image_path` and `saved_model_checkpoint` in that order.  
+The checkpoint name is the model name such as vgg16_bn as shown in the example command as follows. 
+  
 One example of running this is using the following command.
 
     $ python predict.py flowers/test/14/image_06083.jpg vgg16_bn --gpu 
